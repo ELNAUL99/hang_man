@@ -48,6 +48,6 @@ while not end_the_program:
 			print(f"You lose. The word is {chosen_word.upper()}")	
 		else:
 			print(stages[lives])
-	if input("Do you want to play again? (Y/N)") != "Y":
+	if input("Do you want to play again? (Y/N): ").upper() != "Y":
 		end_the_program = True
 		print("Bye")
