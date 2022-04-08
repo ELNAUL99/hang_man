@@ -21,7 +21,7 @@ while not end_the_program:
 		guess = input("Guess a letter: ").lower()
 		
 		while not guess.isalpha():
-			guess = input("Invalid input. Please guess again: ")
+			guess = input("Invalid guess. Please guess again: ")
 		
 		if guess in already_guessed_letter:
 			print("You already guessed this letter.")
